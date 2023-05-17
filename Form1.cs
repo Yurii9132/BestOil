@@ -63,20 +63,6 @@ namespace BestOil
                 sum += item.numUpDownNumber.Value * Convert.ToDecimal(item.TextBoxPrice.Text);
             }
             ToPayLableCafe.Text = Convert.ToString(sum);
-
-            //decimal sum = 0;
-            //NumericUpDown numericUpDown = sender as NumericUpDown;
-            //int index = records.FindIndex(r => r.numUpDownNumber == numericUpDown);
-            //decimal price = Convert.ToDecimal(records[index].TextBoxPrice.Text);
-            //if (Convert.ToDecimal(ToPayLableCafe.Text) == 0)
-            //{
-            //    ToPayLableCafe.Text = Convert.ToString(numericUpDown.Value * price);
-            //}
-            //else
-            //{
-            //    sum = Convert.ToDecimal(ToPayLableCafe.Text) + numericUpDown.Value * price;
-            //    ToPayLableCafe.Text = Convert.ToString(sum);
-            //}
         }
 
         private void Ch_CheckedChanged(object? sender, EventArgs e)
